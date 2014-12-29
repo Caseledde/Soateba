@@ -13,14 +13,24 @@ $conf['master_modules'] = array(
 
     // Core Modules
     'dblog',
+    'file',
+    'image',
     'update',
+
 
     // Contrib Modules
     'admin_menu',
+    'ctools',
     'diff',
-    #'display_cache',
+    'display_cache',
+    'entity',
     'entitycache',
+    'environment_indicator',
     'features',
+    'strongarm',
+
+    // Features
+    'soateba_base',
 
     #'backup_migrate',
 
@@ -63,7 +73,7 @@ $conf['master_modules'] = array(
   ),
 
   'local' => array(
-    #'field_ui',
+    'field_ui',
   ),
 
   'stage' => array(

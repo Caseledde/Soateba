@@ -53,19 +53,19 @@
  */
 
 $databases = array (
-  'default' => 
-  array (
-    'default' => 
+  'default' =>
     array (
-      'database' => 'soateba-d7',
-      'username' => 'soateba-d7',
-      'password' => 'soateba-d7',
-      'host' => 'localhost',
-      'port' => '',
-      'driver' => 'mysql',
-      'prefix' => '',
+      'default' =>
+        array (
+          'database' => 'soateba-d7',
+          'username' => 'soateba-d7',
+          'password' => 'soateba-d7',
+          'host' => 'localhost',
+          'port' => '',
+          'driver' => 'mysql',
+          'prefix' => '',
+        ),
     ),
-  ),
 );
 
 $update_free_access = FALSE;
@@ -90,3 +90,17 @@ drupal_fast_404();
 
 $conf['master_current_scope'] = 'local';
 require_once('master.inc');
+
+$conf['environment_indicator_overwrite'] = TRUE;
+
+
+$conf['environment_indicator_overwritten_name'] = 'Local';
+
+
+$conf['environment_indicator_overwritten_color'] = '#229922';
+$conf['environment_indicator_overwritten_text_color'] = '#ffffff';
+
+
+$conf['environment_indicator_overwritten_position'] = 'top';
+
+$conf['environment_indicator_overwritten_fixed'] = FALSE;

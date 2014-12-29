@@ -1,0 +1,15 @@
+name = soateba_base
+description = Basis-Konfigurationen
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = soateba_base
+dependencies[] = ctools
+dependencies[] = strongarm
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[variable][] = admin_theme
+features[variable][] = node_admin_theme
+features[variable][] = theme_default
+mtime = 1419855141
+project path = sites/all/modules/features
