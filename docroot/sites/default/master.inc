@@ -28,6 +28,15 @@ $conf['master_modules'] = array(
     'environment_indicator',
     'features',
     'strongarm',
+    'paragraphs',
+    'media',
+    'file_entity',
+    'mediafield',
+    'media_bulk_upload',
+    'views',
+    'multiform',
+    'plupload',
+
 
     // Features
     'soateba_base',
@@ -74,6 +83,7 @@ $conf['master_modules'] = array(
 
   'local' => array(
     'field_ui',
+    'views_ui',
   ),
 
   'stage' => array(
