@@ -52,9 +52,7 @@
  * @see conf_path()
  */
 
-require_once('../../../conf/stage.conf.php');
-
-$databases = $db_conf;
+require_once(dirname(__FILE__) . '/../../../conf/stage.conf.php');
 
 $update_free_access = FALSE;
 
