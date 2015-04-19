@@ -141,3 +141,10 @@ DirectoryIndex index.php index.html index.htm
     </FilesMatch>
   </IfModule>
 </IfModule>
+
+<IfModule mod_authn_file.c>
+  AuthType Basic
+  AuthName "Protected"
+  AuthUserFile /is/htdocs/wp10583933_147LR8ZRN8/www/drupal-d7/drupal/.htpasswd
+  Require valid-user
+</IfModule>
