@@ -34,9 +34,16 @@ $conf['master_modules'] = array(
     'mediafield',
     'media_bulk_upload',
     'views',
+    'views_bulk_operations',
+    'views_tree',
     'multiform',
     'plupload',
+    'media_browser_plus',
 
+    'date',
+    'date_api',
+    'date_popup',
+    'date_repeat_api',
 
     // Features
     'soateba_base',
